@@ -1,4 +1,3 @@
-
 # Secure Message Hiding with Python - Encryption and Steganography
 
 ## Overview
@@ -8,7 +7,7 @@ This project demonstrates a secure method for hiding secret messages inside imag
 ### Key Features:
 - **AES Encryption**: Uses the Advanced Encryption Standard (AES) to securely encrypt the message, making it unreadable to anyone without the decryption key.
 - **LSB Steganography**: Embeds the encrypted message into the least significant bits of the image pixels, making the alterations visually imperceptible.
-- **Message Extraction and Decryption**: Provides functions to extract the hidden message from the image and decrypt it back to its original form.
+- **Message Extraction and Decryption**: Provides functions to extract and decrypt the hidden message from the image.
 
 ## How It Works
 
@@ -57,3 +56,7 @@ This approach can be used in various applications where secure and discreet comm
 ## Conclusion
 
 This project provides a practical and effective way to securely hide and retrieve messages inside images. By combining encryption and steganography, it offers enhanced privacy and security for sensitive information. While the current implementation is robust, future enhancements could further strengthen the protection against both data loss and detection.
+
+## Disclaimer
+
+**This project is developed purely for academic and scientific purposes.** It is intended to demonstrate the principles of encryption and steganography in a controlled, educational context. The methods and techniques shown here should not be used for illegal or malicious activities. Users are responsible for ensuring that their use of this software complies with all applicable laws and regulations.
